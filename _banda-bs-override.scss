@@ -36,3 +36,13 @@ $jumbotron-bg: lighten($grey, 6%);
  $navbar-default-border: $brand-primary;
  $navbar-default-brand-color: $brand-secondary;
  $navbar-default-link-color: $brand-secondary;
+
+// Link Colors
+ $link-color:            $brand-secondary !default;
+ $link-decoration:       none !default;
+ $link-hover-color:      darken($link-color, 15%) !default;
+ $link-hover-decoration: none !default;
+
+ a {
+   color: $link-color;
+ }
