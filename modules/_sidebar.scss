@@ -1,39 +1,12 @@
-#banda-sidebar {
-    border: 1px solid $grey;
-    a {
-        color: $brand-secondary;
-    }
-    ul.banda-nav {
-        border-left: 2px solid $brand-primary;
-        li.banda-nav-section-title {
-            border-top: 1px solid $grey;
-            padding: 10px 10px;
-            font-weight: 800;
-        }
-        ul.banda-nav-section {
-            li {
-                border-top: 1px solid $grey;
-                a {
-                    width: 100%;
-                    display: block;
-                    padding: 10px;
-                    background-color: lighten($grey, 8%);
-                    &:hover {
-                        border-left: 2px solid $brand-secondary;
-                        background-color: lighten($grey, 2%);
-                        text-decoration: none;
-                    };
-                }
-            }
-        }
-    }
-    // Needs .nav to make scrollspy work, but don't want nav styles
-    .nav {
-        li {
-            a {
-                float: none;
-
-            }
-        }
-    }
+#sidebar {
+  ul {
+    padding-left: 0; 
+    list-style: none;
+  }
+  label {
+    width: 100%;
+  }
+  aside {
+    margin-bottom: 15px;
+  }
 }

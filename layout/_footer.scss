@@ -3,4 +3,22 @@
    ======================= */
 
 .l-footer {
+  background-color: $brand-primary;
+  padding: 60px 0 40px;
+  margin-top: 40px;
+  
+}
+
+.footer-menu {
+  text-align: center;
+  ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    a {
+      padding: 5px 10px;
+      font-size: small; 
+    }
+  }
 }
