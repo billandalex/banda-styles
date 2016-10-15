@@ -28,13 +28,6 @@ p {
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
 }
-p a {
-    border-bottom: 2px solid $brand-secondary;
-    &:hover {
-        border-bottom: 2px solid $brand-primary;
-        ;
-    }
-}
 body {
     text-rendering: optimizeLegibility;
 }

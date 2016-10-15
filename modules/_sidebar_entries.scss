@@ -10,14 +10,15 @@
     ul.banda-nav {
         li.banda-nav-section-title {
             padding: 10px 10px;
-            font-weight: 800;
+            font-weight: 400;
         }
         ul.banda-nav-section {
             li {
                 a {
                     display: block;
-                    padding: 10px;
+                    padding: 10px 10px 10px 15px;
                     width: 100%;
+                    font-weight: 300;
                 }
             }
         }
@@ -30,4 +31,11 @@
             }
         }
     }
+}
+
+@media (min-width: 544px) {
+    #banda-sidebar ul.banda-nav li.banda-nav-section-title, #banda-sidebar ul.banda-nav ul.banda-nav-section li a {
+        padding-left: 0;
+    }
+
 }
