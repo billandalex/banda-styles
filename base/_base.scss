@@ -19,10 +19,38 @@ section {
     padding-top: 50px;
 }
  
+p {
+    font-size: 16px;
+    line-height: 1.6875;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-bottom: 1em;
+    -webkit-font-smoothing: antialiased;
+}
 p a {
     border-bottom: 2px solid $brand-secondary;
-    &:hover {
-        text-decoration: none;
+    &:hover {;
         border-bottom: 2px solid $brand-primary;
     }
+}
+body {
+    text-rendering: optimizeLegibility;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.38462;
+    font-weight: bold;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+}
+hr {
+    margin: 3rem 0;
+    border-top: 1px dotted rgba(black, .1);
+}
+
+::selection {
+  background: rgba($brand-primary, .3);  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba($brand-primary, .3); /* Gecko Browsers */
 }

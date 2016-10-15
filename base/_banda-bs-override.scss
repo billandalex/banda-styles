@@ -10,9 +10,9 @@ $border-radius-small:       0px !default;
  
 
 // Fonts
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
-$font-family-sans-serif: 'Source Sans Pro', sans-serif;
-$headings-font-family: 'Source Sans Pro', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+$font-family-sans-serif: 'Open Sans',Verdana,Arial,Helvetica,sans-serif;
+$headings-font-family: 'Open Sans',Verdana,Arial,Helvetica,sans-serif;
 $font-family-base: $font-family-sans-serif;
 
 // Colors
@@ -41,8 +41,11 @@ $jumbotron-bg: lighten($grey, 6%);
  $link-color:            $brand-secondary !default;
  $link-decoration:       none !default;
  $link-hover-color:      darken($link-color, 15%) !default;
- $link-hover-decoration: none !default;
+ //$link-hover-decoration: none !default;
 
  a {
    color: $link-color;
+ }
+ .container {
+  position: relative;
  }
