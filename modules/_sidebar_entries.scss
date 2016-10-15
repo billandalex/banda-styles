@@ -1,10 +1,9 @@
 .banda-sidebar-container {
+    margin-bottom: 20px;
     padding-right: 0;
     padding-left: 0;
-    margin-bottom: 20px;
 }
 #banda-sidebar {
-
     a {
         color: $brand-secondary;
     }
@@ -16,9 +15,9 @@
         ul.banda-nav-section {
             li {
                 a {
-                    width: 100%;
                     display: block;
                     padding: 10px;
+                    width: 100%;
                 }
             }
         }
@@ -28,7 +27,6 @@
         li {
             a {
                 float: none;
-
             }
         }
     }

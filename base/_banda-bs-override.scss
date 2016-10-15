@@ -4,10 +4,10 @@
 
 //  General variables
 
-$border-radius-base:        0px !default;
-$border-radius-large:       0px !default;
-$border-radius-small:       0px !default;
- 
+$border-radius-base: 0 !default;
+$border-radius-large: 0 !default;
+$border-radius-small: 0 !default;
+
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
@@ -17,9 +17,9 @@ $font-family-base: $font-family-sans-serif;
 
 // Colors
 $brand-primary: #93EEC1;
-$brand-secondary: #12271a;
-$grey: #e0eae5;
-$white: #ffffff;
+$brand-secondary: #12271A;
+$grey: #E0EAE5;
+$white: #FFF;
 
 // Buttons
 $btn-primary-color: $brand-secondary;
@@ -32,20 +32,20 @@ $jumbotron-bg: lighten($grey, 6%);
 
 
 // Navbar
- $navbar-default-bg: $brand-primary;
- $navbar-default-border: $brand-primary;
- $navbar-default-brand-color: $brand-secondary;
- $navbar-default-link-color: $brand-secondary;
+$navbar-default-bg: $brand-primary;
+$navbar-default-border: $brand-primary;
+$navbar-default-brand-color: $brand-secondary;
+$navbar-default-link-color: $brand-secondary;
 
 // Link Colors
- $link-color:            $brand-secondary !default;
- $link-decoration:       none !default;
- $link-hover-color:      darken($link-color, 15%) !default;
- //$link-hover-decoration: none !default;
+$link-color: $brand-secondary !default;
+$link-decoration: none !default;
+$link-hover-color: darken($link-color, 15%) !default;
+//$link-hover-decoration: none !default;
 
- a {
-   color: $link-color;
- }
- .container {
-  position: relative;
- }
+a {
+    color: $link-color;
+}
+.container {
+    position: relative;
+}

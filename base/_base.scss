@@ -12,35 +12,38 @@
    =========================== */
 
 html {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 section {
     padding-top: 50px;
 }
- 
+
 p {
+    margin-bottom: 1em;
+    letter-spacing: 0;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1.6875;
-    font-weight: normal;
-    letter-spacing: 0;
-    margin-bottom: 1em;
+
     -webkit-font-smoothing: antialiased;
 }
 p a {
     border-bottom: 2px solid $brand-secondary;
-    &:hover {;
+    &:hover {
         border-bottom: 2px solid $brand-primary;
+        ;
     }
 }
 body {
     text-rendering: optimizeLegibility;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    line-height: 1.38462;
-    font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0;
+    font-weight: bold;
+    line-height: 1.38462;
+
     -webkit-font-smoothing: antialiased;
 }
 hr {
@@ -49,8 +52,8 @@ hr {
 }
 
 ::selection {
-  background: rgba($brand-primary, .3);  /* WebKit/Blink Browsers */
+    background: rgba($brand-primary, .3);  /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: rgba($brand-primary, .3); /* Gecko Browsers */
+    background: rgba($brand-primary, .3); /* Gecko Browsers */
 }

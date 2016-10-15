@@ -6,10 +6,10 @@
 @import 'base/banda-bs-override';
 
 // bootstrap
-@import "external/bootstrap/bootstrap";
+@import 'external/bootstrap/bootstrap';
 
 // Banda Styles partials
-@import "base/*";
-@import "layout/*";
-@import "modules/*";
-@import "state/*";
+@import 'base/*';
+@import 'layout/*';
+@import 'modules/*';
+@import 'state/*';

@@ -1,57 +1,54 @@
 // Inline and block code styles
-code,
-kbd,
-pre,
-samp {
-  font-family: $font-family-monospace;
+code, kbd, pre, samp {
+    font-family: $font-family-monospace;
 }
 
 // Inline code
 code {
-  padding: $code-padding-y $code-padding-x;
-  font-size: $code-font-size;
-  color: $code-color;
-  background-color: $code-bg;
-  @include border-radius($border-radius);
+    @include border-radius($border-radius);
+    padding: $code-padding-y $code-padding-x;
+    background-color: $code-bg;
+    color: $code-color;
+    font-size: $code-font-size;
 }
 
 // User input typically entered via keyboard
 kbd {
-  padding: $code-padding-y $code-padding-x;
-  font-size: $code-font-size;
-  color: $kbd-color;
-  background-color: $kbd-bg;
-  @include border-radius($border-radius-sm);
-  @include box-shadow($kbd-box-shadow);
+    @include border-radius($border-radius-sm);
+    @include box-shadow($kbd-box-shadow);
+    padding: $code-padding-y $code-padding-x;
+    background-color: $kbd-bg;
+    color: $kbd-color;
+    font-size: $code-font-size;
 
-  kbd {
-    padding: 0;
-    font-size: 100%;
-    font-weight: $nested-kbd-font-weight;
-    @include box-shadow(none);
-  }
+    kbd {
+        @include box-shadow(none);
+        padding: 0;
+        font-weight: $nested-kbd-font-weight;
+        font-size: 100%;
+    }
 }
 
 // Blocks of code
 pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: $code-font-size;
-  color: $pre-color;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: $pre-color;
+    font-size: $code-font-size;
 
-  // Account for some code outputs that place code tags in pre tags
-  code {
-    padding: 0;
-    font-size: inherit;
-    color: inherit;
-    background-color: transparent;
-    border-radius: 0;
-  }
+    // Account for some code outputs that place code tags in pre tags
+    code {
+        padding: 0;
+        border-radius: 0;
+        background-color: transparent;
+        color: inherit;
+        font-size: inherit;
+    }
 }
 
 // Enable scrollable blocks of code
 .pre-scrollable {
-  max-height: $pre-scrollable-max-height;
-  overflow-y: scroll;
+    overflow-y: scroll;
+    max-height: $pre-scrollable-max-height;
 }

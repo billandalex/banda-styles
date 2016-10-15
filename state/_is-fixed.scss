@@ -1,15 +1,14 @@
 
-@media only screen and (min-width: 544px) {/* For desktop: */
-  .is-fixed {
-    position: fixed;
-    top: 15px;
-    max-height: 100%;
-    overflow-y: auto;
-  }
-  .admin-bar .is-fixed { //adjust for wp admin bar
-    top: 47px;
-  }
+@media only screen and (min-width: 544px) {
+    /* For desktop: */
+    .is-fixed {
+        position: fixed;
+        top: 15px;
+        overflow-y: auto;
+        max-height: 100%;
+    }
+    .admin-bar .is-fixed {
+        //adjust for wp admin bar
+        top: 47px;
+    }
 }
-
-
-
