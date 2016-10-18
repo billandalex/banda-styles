@@ -3,6 +3,7 @@
     padding-right: 0;
     padding-left: 0;
 }
+
 #banda-sidebar {
     a  {
         color: $brand-secondary;
@@ -38,5 +39,22 @@
     #banda-sidebar ul.banda-nav li.banda-nav-section-title, #banda-sidebar ul.banda-nav ul.banda-nav-section li a {
         padding-left: 0;
     }
+}
 
+
+@media (max-width: 545px) {
+    .entries-sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        background-color: $white;
+        width: 100%;
+        z-index: 200;
+        overflow-x: hidden;
+        transition: left 0.5s ease;
+        &.active {
+            left: 0;
+        }
+    }
 }
